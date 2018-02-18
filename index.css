@@ -1,0 +1,90 @@
+html{
+    height: 100%;
+}
+body{
+    padding:0px;
+    margin:0px;
+    background: url(bgimg.jpg);
+    background-size: 100% 100%;
+}
+header{
+    text-align: center;
+    line-height: 45px;
+    font-size: 45px;
+    color:#e65;
+    font-weight: 700;
+    margin-top:25px;
+}
+.main{
+    width:80%;
+    height:auto;
+    margin:0 auto;
+    margin-top:55px;
+    position: relative;
+    display:flex;
+    display:-webkit-flex;
+    flex-flow:row wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.main img{
+    border:5px solid #fff;
+    box-shadow: 1px 3px 3px rgba(0,0,0,0.2);
+    transition: all 0.6s ease-in-out;
+    -webkit-transition: all 0.6s ease-in-out;
+    -moz-transition: all 0.6s ease-in-out;
+    cursor: pointer;
+    z-index:1;
+    flex:1.2 1 auto;
+}
+.button-1{
+    transform: rotate(10deg);
+    -webkit-transform:rotate(10deg);
+    -moz-transform:rotate(10deg);
+}
+.button-2{
+    transform: rotate(-10deg);
+    -webkit-transform:rotate(-10deg);
+    -moz-transform:rotate(-10deg);
+}
+.button-3{
+    transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+}
+.button-4{
+    transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+}
+.button-5{
+    transform: rotate(15deg);
+    -webkit-transform: rotate(15deg);
+    -moz-transform: rotate(15deg);
+}
+.button-6{
+    transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+}
+.button-7{
+    transform: rotate(8deg);
+    -webkit-transform: rotate(8deg);
+    -moz-transform: rotate(8deg);
+}
+.button-8{
+    transform: rotate(-7deg);
+    -webkit-transform: rotate(-7deg);
+    -moz-transform: rotate(-7deg);
+}
+section img:hover{
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    box-shadow: 1px 3px 3px rgba(0,0,0,0.2),1px 5px 5px rgba(0,0,0,0.2);
+    transform: scale(1.2,1.2);
+    -webkit-transform: scale(1.2,1.2);
+    -moz-transform: scale(1.2,1.2);
+    z-index:10;
+}
+
